@@ -8,9 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit",
-    "test": "vitest run",
-    "format": "prettier --check ."
+    "type-check": "t:watch": "vitest\n    "format": "
+    "format:fix": "prettier --write ."
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^0.0.39",
