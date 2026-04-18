@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "t:watch": "vitest\n    "format": "
-    "format:fix": "prettier --write ."
+    "type-check": "t": "vitest",
+    "test:watch": "vitest --": "prettier --check:fix": "prettier --write ."
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^0.0.39",
