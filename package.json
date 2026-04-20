@@ -10,7 +10,8 @@
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "test": "vitest",
-    "test:watch:check": "prettier --check .",
+    "test:watch": "vitest --watch",
+    "format:check": "prettier --check .",
     "format:fix": "prettier --write ."
   },
   "dependencies": {
