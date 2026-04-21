@@ -8,9 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc",
-    "format:fix": "prettier --write .",
-    "test": "vitest run",
+    "type-check": "t
     "test:watch": "vitest"
   },
   "dependencies": {
